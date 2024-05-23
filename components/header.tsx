@@ -14,9 +14,15 @@ export default function Header() {
           </Link>
         </h1>
         <nav className='flex gap-3'>
-          <Button variant={"hover"}>Features</Button>
-          <Button variant={"hover"}>Pricing</Button>
-          <Button variant={"hover"}>Docs</Button>
+          <Button variant={"hover"} asChild>
+            <Link href='#'>Features</Link>
+          </Button>
+          <Button variant={"hover"} asChild>
+            <Link href='/pricing'>Pricing</Link>
+          </Button>
+          <Button variant={"hover"} asChild>
+            <Link href='#'>Docs</Link>
+          </Button>
         </nav>
       </div>
       <Button variant={"outline"}>Login</Button>
