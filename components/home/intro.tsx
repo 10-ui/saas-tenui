@@ -24,7 +24,7 @@ export default function Intro() {
           </Button>
         </div>
         <h2 className='text-center text-7xl font-bold'>
-          A new Saas
+          A new Saas project
           <br />
           for all web developers.
         </h2>
